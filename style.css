@@ -34,7 +34,6 @@ header{
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-
 }
 
 nav{
@@ -47,7 +46,6 @@ nav >a{
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
-
 }
 
 nav >a:hover{
@@ -71,7 +69,7 @@ header .textos-header{
  .textos-header h2{
     font-size: 30px;
     font-weight: 300;
-    color: #9BA8AB;
+    color: #aba09b;
  }
 
 .wave{
@@ -80,7 +78,7 @@ header .textos-header{
     width: 100%;
 }
 
-/* contenedor sobre nosotros*/
+/* sistema solar #######################################################################################################*/
 
 .contenedor-sobre-nosotros{
     display: flex;
@@ -108,7 +106,7 @@ header .textos-header{
     color: #ccd0cf;
 }
 
-/* Galeria */
+/* Galeria de planetas ################################################################################################# */
 .planetas{
     background: black;
 }
@@ -161,7 +159,7 @@ header .textos-header{
     transform: scale(0);
 }
 
-/* Estrellas*/
+/* Estrellas    ##################################################################################################*/
 
 .cards{
     display: flex;
@@ -200,7 +198,7 @@ header .textos-header{
     text-align: justify;
 }
 
-/* misiones*/
+/* misiones #######################################################################################################*/
 
 .about-misiones{
     background: black;
@@ -233,7 +231,7 @@ header .textos-header{
     color:#9e9797;
 }
 
-/*footer*/
+/*footer  ############################################################################################################*/
 
 footer{
     background-color:#000000;
@@ -273,6 +271,7 @@ footer{
     color: #9e9797;
 }
 
+/*GALAXIA     ###############################################################################################*/
 .nuevo-tema{
     width: 100%;
     height: 600px;
@@ -282,7 +281,17 @@ footer{
     margin: auto;
     overflow: hidden;
 }
+.nuevo-tema h2{
+    color: #9BA8AB;
+    justify-content: center;
+    text-align: center;
+
+}
 .content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards2{
     display: flex;
     justify-content: space-evenly;
 }
@@ -311,7 +320,7 @@ footer{
     font-size: 18px;
 }
 
-/* otro tema*/
+/* otro tema #####################################################################################################*/
 .hot-jupiter{
     background-color: #170E11;
 }
@@ -402,6 +411,32 @@ footer{
     .misiones-ind img{
         width: 90%;
     }
+
+    /*Galaxia*/
+    .cards2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards2 .card2{
+        width: 95%;
+    }
+    /*HOT JUPITER*/
+   
+    .contenedor-sobre-hot{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-sobre-hot .contenido-textos-hot{
+        width: 90%;
+    }
+
+    .imagen-hot{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -451,6 +486,14 @@ footer{
     .cards .card img{
         width: 90px;
         height: 90px;
+    }
+
+    /* Galaxia*/
+    .cards2 .card2{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     /*footer*/

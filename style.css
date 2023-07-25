@@ -86,7 +86,8 @@ header .textos-header{
 }
 
 .imagen-sistema-solar{
-    width: 48%;
+    width: 60%;
+    height: 300px;
 }
 
 .contenedor-sobre-nosotros .contenido-textos{
@@ -352,7 +353,7 @@ footer{
     font-size: 20px;
 }
 
-/* que se adapte a telefono celular*/
+/* que se adapte a telefono celular#######################################################################*/
 
 @media screen and (max-width:900px) {
     header{

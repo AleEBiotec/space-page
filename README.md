@@ -1,2 +1,2 @@
 # space-page
-Astronomy
+Web pague sbout astronomy. Hecho con CSS y HTML
